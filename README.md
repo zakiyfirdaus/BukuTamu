@@ -1,4 +1,0 @@
-BukuTamu
-========
-
-Buku Tamu
