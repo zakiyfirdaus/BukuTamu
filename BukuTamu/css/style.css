@@ -1,0 +1,75 @@
+/*style tambahan yang digunakan*/
+
+label {
+    cursor: pointer;
+}
+
+a{
+    cursor: pointer;
+}
+
+.jumbotron{
+    cursor: default;
+    color: #4797BC;
+}
+
+#guest-data:hover{
+    color: tomato;
+    text-decoration: none;
+    cursor: default;
+}
+
+#guest-logo{
+    width: 120%;
+    max-width: 75px;
+}
+
+#bottom-nav{
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+#bottom-name{
+    color: #737778;
+    text-align: center;
+}
+
+.info {
+    text-align: left;
+    padding: 5px;
+    font-size: 11px;
+    color: #fff;
+    position: relative;
+    display: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 1px 2px #a9a9a9;
+    -moz-box-shadow: -1px 1px 2px #a9a9a9;
+    box-shadow: -1px 1px 2px #a9a9a9;
+}
+
+.error {
+    background: #FEFB64;
+    color: #000000;
+
+}
+
+.validating{
+    background: #E1E1DF;
+    font-weight: bold;
+}
+
+.correct {
+    background: #9FEF8D;
+}
+
+.wrong {
+    color: #e90000;
+}
+
+.normal {
+    font-weight: normal;
+    color: #222;
+}
